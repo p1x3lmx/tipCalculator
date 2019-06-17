@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/css/stylesheet.css">
+    <title>Tip Calculator</title>
+  </head>
+  <body>
+    <div class="container">
+    <div class="calculator">
+      <h1>Tip Calculator</h1>
+        Total Amount:<input type="text" id="totalAmount">
+        <p> Select the desired tip:</p>
+        <button id="10" onclick="tipAmount(this.id)">10%</button>
+        <button id="12" onclick="tipAmount(this.id)">12%</button>
+        <button id="15" onclick="tipAmount(this.id)">15%</button>
+        <br>The total amount to pay including tip is: <input type="text" id="gt">
+    </div>
+    </div>
+  </body>
+  <script src="index.js" charset="utf-8"></script>
+</html>
