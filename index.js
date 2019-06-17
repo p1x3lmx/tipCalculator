@@ -6,7 +6,7 @@ function tipAmount(clicked_byId) {
   } else {
     let clickID = clicked_byId;
     console.log(clickID);
-    let granTotal = ((clickID/100)+1) * totalAmount;
+    let granTotal = (1+(clickID/100)) * totalAmount;
     console.log(totalAmount);
     console.log(granTotal);
     document.getElementById("gt").value = "$" + granTotal.toFixed(2);
