@@ -3,19 +3,21 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="/css/stylesheet.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
     <title>Tip Calculator</title>
   </head>
   <body>
     <div class="container">
       <div class="calculator">
-        <h1>Tip Calculator</h1>
+        <h1>Tip Calculator</h1><hr>
+          <p>
           Total Amount $<input type="text" id="totalAmount">
-          <p> Select the desired tip:
-          <button id="10" onclick="tipAmount(this.id)">10%</button>
-          <button id="12" onclick="tipAmount(this.id)">12%</button>
-          <button id="15" onclick="tipAmount(this.id)">15%</button>
+           Select the desired tip:
+          <button id="10" class="button" onclick="tipAmount(this.id)">10%</button>
+          <button id="12" class="button" onclick="tipAmount(this.id)">12%</button>
+          <button id="15" class="button" onclick="tipAmount(this.id)">15%</button>
           </p>
-          <br>The total amount to pay including tip is: <input type="text" id="gt">
+          The total amount to pay including tip is: <input type="text" id="gt">
       </div>
     </div>
   </body>

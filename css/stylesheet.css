@@ -1,21 +1,47 @@
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 16px;
   background-color: #aaa;
 }
 
 .container {
-display: flex;
-justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .calculator {
+  margin-top: 20px;
   border: 2px #000 solid;
-  padding: 7px;
+  padding: 20px;
   border-radius: 25px;
   background-color: #eee;
 }
 
 .calculator > h1 {
   text-align: center;
+}
+input, input[type=text] {
+  padding: 8px;
+  font-size: 16px;
+}
+
+
+.button {
+  background-color: #333;
+  color: #fff;
+  padding:10px 15px;
+  border:none;
+  font-size: 16px;
+}
+
+.button:hover {
+  background-color: #fff;
+  color: #333;
+  padding:10px 15px;
+  border:none;
+  font-size: 16px;
+}
+
+hr {
+  border-top: dotted 2px;
 }
